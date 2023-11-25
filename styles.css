@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: rgb(74, 72, 72);
+    padding: 20px; 
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+  .logo img {
+    width: 200px;
+  }
+
+  header {
+    background-color: rgb(74, 72, 72);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  } 
+
+  nav li {
+    margin-right: 20px;
+  }
+
+  nav a {
+    color: #fff
+    font-weight bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  }
+
+  nav a:visited {
+    color: #ed1f1f;
+  }
+
+
+  .login-link a {
+    margin-left: auto;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+  }
+
+
+
+.image-container {
+  overflow: hidden;
+  position: relative;
+  width: 100vw; 
+  height: 100vh; 
+}
+.image-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  transition: transform 0.5s ease-in-out;
+}
